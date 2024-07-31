@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1 id="title">Global Learning Academy</h1>
+  <p id="description"><i>est. 1965</i></p>
+
+  <form id="survey-form">
+    <label id="name-label">Name
+      <input required id="name" type="text" placeholder=" Enter your name">
+    </label>
+    <label id="email-label">Email
+        <input required id="email" type="email" placeholder=" Enter your email">
+    </label>
+    <label id="number-label">Age
+       <input id="number" type="number" min=1 max=100>
+    </label>
+    
+    <p class="describe">Have you visited the library?</p>
+    <label id="def">
+      <input type="radio" value="definitely" name="1" id="definitely"> Yes
+    </label>
+    <label id="may">
+      <input type="radio" value="maybe" name="1" id="maybe"> No
+    </label>
+    <label id="notsure">
+      <input type="radio" value="notsure" name="1" id="ns"> I don't know
+    </label>
+
+
+<p class="describe">Choose a workshop</p>
+<select id="dropdown">
+    <option value="" disabled selected>    Select a workshop</option>
+    <option>Theater</option>
+    <option>Programming</option>
+    <option>Image and Sound</option>
+    <option>Music</option>
+    <option>Other</option>
+</select>
+
+<p class="describe">What are your favorite subjects?</p>
+<label class="options">
+    <input class="opt" type="checkbox" value="a"> Math
+</label>
+<label class="options">
+    <input class="opt" type="checkbox" value="a"> Geography
+</label>
+<label class="options">
+    <input class="opt" type="checkbox" value="a"> Biology
+</label>
+<label class="options">
+    <input class="opt" type="checkbox" value="a"> Literature
+</label>
+<label class="options">
+    <input class="opt" type="checkbox" value="a"> Physics
+</label>
+<label class="options">
+    <input class="opt" type="checkbox" value="a"> Other
+</label>
+
+
+<p class="describe">Description (optional)</p>
+    <textarea cols=30 rows=10>
+    </textarea>
+
+    <button type="submit" id="submit">Send</button>
+
+  </form>
+
+</body>
+</html>
