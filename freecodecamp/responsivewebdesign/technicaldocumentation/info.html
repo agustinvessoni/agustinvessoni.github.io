@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <nav id="navbar">
+    <div class="nav-link-container">
+    <header>
+      <img class="logo-navbar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png">
+      <h1 class="title-navbar">Web development
+</h1>
+    </header>
+      <a class="nav-link" href="#Introduccion">Introduccion</a>
+      <a class="nav-link" href="#HTML_Basico">HTML Basico</a>
+      <a class="nav-link" href="#CSS_Basico">CSS Basico</a>
+      <a class="nav-link" href="#Diseño_y_maquetacion">Diseño y maquetacion</a>
+      <a class="nav-link" href="#Multimedia_en_HTML">Multimedia en HTML</a>
+      <a class="nav-link" href="#Formularios_en_HTML">Formularios en HTML</a>
+      </div>
+  </nav>
+  
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduccion">
+      <header id="header-intro">Introduccion</header>
+      <p><span class="bold">HTML (HyperText Markup Language)</span> es el lenguaje de marcado estándar para crear páginas web. Se utiliza para estructurar el contenido en la web. Un documento HTML está compuesto por una serie de elementos, cada uno definido por etiquetas (tags). Estas etiquetas indican al navegador cómo mostrar el contenido.</p>
+      <p><span class="bold">CSS (Cascading Style Sheets)</span> es un lenguaje de hojas de estilo que se utiliza para describir la presentación de un documento HTML. Mientras que HTML se encarga de la estructura del contenido, CSS se encarga de la apariencia visual. CSS permite definir estilos, como colores, fuentes, espaciamiento, y disposición del contenido.</p>
+
+      <p></p>
+      <p></p>
+    </section>
+
+    <section class="main-section" id="HTML_Basico">
+      <header>HTML Basico</header>
+      <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code> Define el tipo de documento y la versión de HTML.</li>
+        <li><code>&lt;html&gt;</code> Es la etiqueta raíz que envuelve todo el contenido de la página.</li>
+        <li><code>&lt;head&gt;</code> Contiene metadatos sobre el documento, como el título.</li>
+        <li><code>&lt;body&gt;</code> Contiene el contenido visible de la página web.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS_Basico">
+      <header>CSS Basico</header>
+      <p>selector{<br>
+      propiedad: valor;<br>
+      propiedad: valor;<br>
+      propiedad: valor;
+      <br>}
+      </p>
+      <p>Algunas de las <span class="bold">propiedades</span> mas utilizadas son:</p>
+      <ul>
+        <li>background-color: Establece el color de fondo de un elemento.</li>
+        <li>font-size: Define el tamaño de la fuente.</li>
+        <li>font-weight: Define el grosor de la fuente</li>
+        <li>width: Define el ancho de un elemento.</li>
+        <li>margin: Define el margen exterior de un elemento.</li>
+        <li>padding: Define el relleno interior de un elemento.</li>
+        <li>display: Define cómo se muestra un elemento (por ejemplo, block, inline, flex, none)</li>
+        <li>position: Define cómo se posiciona un elemento (por ejemplo, static, relative, absolute, fixed).</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Diseño_y_maquetacion">
+      <header>Diseño y maquetacion</header>
+      <p>El diseño en CSS se refiere a la forma en que se estilizan y presentan los elementos HTML en una página web. CSS permite controlar aspectos visuales como colores, fuentes, márgenes, bordes, alineación, y mucho más</p>
+      <p>La maquetación en CSS se refiere a cómo se distribuyen y posicionan los elementos en una página web. Existen varias técnicas y herramientas en CSS para realizar la maquetación:</p>
+      <ol>
+        <li><span class="bold">Modelo de Caja</span>: Cada elemento HTML se representa como una caja, que puede ser ajustada con propiedades como width, height, margin, padding, y border.</li>
+        <li><span class="bold">Display</span>
+          <ul>
+            <li>block: El elemento ocupa todo el ancho disponible.</li>
+            <li>inline: El elemento ocupa solo el espacio necesario y puede estar en línea con otros elementos.</li>
+            <li>flex: Utilizado para crear layouts flexibles y responsivos.</li>
+            <li>grid: Utilizado para crear layouts en rejilla.</li>
+          </ul>
+        </li>
+        <li><span class="bold">Posicionamiento</span>
+          <ul>
+            <li>static: Posicionamiento por defecto, sigue el flujo normal del documento.</li>
+            <li>relative: Posiciona el elemento en relación a su posición original.</li>
+            <li>absolute: Posiciona el elemento en relación a su contenedor más cercano con posición relativa.</li>
+            <li>fixed: Posiciona el elemento en relación a la ventana del navegador.</li>
+           <li>sticky: Una mezcla entre relative y fixed.</li>
+          </ul>
+        </li>
+        <li><span class="bold">Flexbox</span>: Un modelo de diseño unidimensional que facilita la distribución de espacio y alineación de elementos dentro de un contenedor. Propiedades clave incluyen flex-direction, justify-content, align-items, y flex-wrap.</li>
+        <li><span class="bold">Grid</span>: Un modelo de diseño bidimensional que permite crear layouts complejos con filas y columnas. Propiedades clave incluyen grid-template-columns, grid-template-rows, gap, grid-area, entre otras.</li>
+      </ol>
+  </code>
+    </section>
+
+    <section class="main-section" id="Multimedia_en_HTML">
+      <header>Multimedia en HTML</header>
+      <p>Propiedades de <code>&ltaudio&gt;</code></p>
+      <ul>
+        <li>src: Especifica la ruta del archivo multimedia. Generalmente se utiliza dentro de una etiqueta <code>&ltsource&gt;</code> para proporcionar múltiples fuentes.</li>
+        <li>controls: Añade controles de reproducción (play, pause, volumen) proporcionados por el navegador.</li>
+        <li>autoplay: Inicia la reproducción automáticamente cuando la página se carga. Nota: Esta propiedad puede ser deshabilitada por los navegadores debido a problemas de usabilidad.</li>
+        <li>loop: Reproduce el archivo multimedia en bucle, reiniciándose automáticamente cuando termina.</li>
+        <li>muted: Silencia el audio del archivo multimedia de manera predeterminada.</li>
+        <li>preload: Sugerencia al navegador sobre cómo manejar la precarga del archivo</li>
+      </ul>
+
+      <p>Propiedades de <code>&ltvideo&gt;</code></p>
+      <ul>
+        <li>width y height: Especifican las dimensiones del video en píxeles.</li>
+        <li>poster: Especifica una imagen que se muestra antes de que el video comience a reproducirse.</li>
+        <li>playsinline: Permite que el video se reproduzca en línea en dispositivos móviles en lugar de entrar en modo de pantalla completa.</li>
+      </ul>
+
+    </section>
+
+
+
+
+
+    <section class="main-section" id="Formularios_en_HTML">
+      <header>Formularios en HTML</header>
+
+      <ul>
+        <li><code>&ltform&gt;</code>
+          <ul>
+            <li>action: Especifica la URL a la que se enviarán los datos del formulario.</li>
+            <li>method: Especifica el método HTTP que se utilizará al enviar el formulario. Los valores comunes son GET y POST.</li>
+            <li>enctype: Especifica el tipo de contenido que se utilizará al enviar los datos del formulario. Comúnmente se usa multipart/form-data para subir archivos.</li>
+          </ul>
+        </li>
+        <li><code>&ltinput&gt;</code>
+          <ul>
+            <li>type: Especifica el tipo de entrada.</li>
+            <li>name: Especifica el nombre del campo de entrada, utilizado para identificar los datos cuando se envían</li>
+            <li>value: Especifica el valor predeterminado del campo de entrada.</li>
+            <li>placeholder: Especifica un texto de sugerencia que aparece dentro del campo de entrada cuando está vacío.</li>
+            <li>required: Indica que el campo de entrada debe ser completado antes de enviar el formulario.</li>
+            <li>readonly: Hace que el campo de entrada sea de solo lectura.</li>
+            <li>disabled: Deshabilita el campo de entrada, impidiendo que el usuario lo modifique.</li>
+            <li>maxlength: Especifica el número máximo de caracteres que se pueden ingresar.</li>
+            <li>min y max: Especifican los valores mínimo y máximo para campos de tipo numérico.</li>
+          </ul>      
+        </li>
+        <li><code>&lttextarea&gt;</code>
+          <ul>
+            <li>rows y cols: Especifican el número de filas y columnas del área de texto.</li>
+            <li>placeholder: Especifica un texto de sugerencia.</li>
+          </ul>
+        </li>
+        <li><code>&lt;select&gt;</code>
+          <ul>
+            <li>name: Especifica el nombre del menú desplegable.</li>
+            <li>multiple: Permite seleccionar múltiples opciones.</li>
+          </ul>
+        </li>
+        <li><code>&lt;button&gt;</code>
+          <ul>
+            <li>type: Especifica el tipo de botón. Los valores comunes son submit, reset, y button.</li>
+            <li>name y value: Especifican el nombre y valor del botón, utilizados al enviar el formulario.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+</div>
+</body>
+</html>
