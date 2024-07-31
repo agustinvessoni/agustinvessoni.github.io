@@ -130,6 +130,7 @@ a:hover{
   transform: translateY(5px);
 }
 
+/*
 @media (max-width: 600px){
 
   .grid-container {
@@ -137,3 +138,5 @@ a:hover{
     row-gap: 50px;
   }
 }
+
+*/
