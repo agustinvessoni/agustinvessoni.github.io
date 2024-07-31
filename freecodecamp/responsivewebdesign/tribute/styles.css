@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: Montserrat, sans-serif;
+}
+#title{
+  text-align: center;
+  margin-top: 20px;
+}
+figcaption{
+  text-align: center;
+  margin-top: 10px;
+}
+li{
+  margin-top: 10px;
+}
+#image{
+  max-width: 100%;    
+  display: block;    
+  height: auto;    
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#titulo-logros{
+  font-weight: 700;
+}
+#tribute-info{
+  padding: 1.2rem;
+  text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+}
+#info-link{
+  padding: 1.5rem;
+}
+span{
+  font-weight: 600;
+}
+.linea-tiempo{
+  background-color: #D1D1D1;
+  width: 50%;
+  margin: 0 auto;
+}
+#titulo-logros{
+  padding: 1.5rem;
+}
