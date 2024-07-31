@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+   display: flex;
+}
+.logo-navbar{
+  width: 200px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+#navbar {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: #1C1C1C;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+#main-doc {
+    margin-left: 270px;
+    padding: 20px;
+}
+header{
+  font-weight: 800;
+  font-size: 18px;
+}
+.title-navbar{
+  font-size: 20px;
+  margin-left: 20px;
+  color: #767676;
+}
+code{
+  font-size: 16px;
+}
+#HTML_Basico{
+  margin-top: 50px;
+}
+#HTML_Basico ul li{
+  margin-top: 10px;
+}
+#CSS_Basico ul li{
+  margin-top: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+#Diseño_y_maquetacion ol li{
+  margin-top: 10px;
+}
+#Diseño_y_maquetacion{
+  margin-top: 50px;
+}
+#Multimedia_en_HTML ul li{
+  margin-top: 10px;
+}
+#Multimedia_en_HTML p{
+  font-weight: bold;
+}
+#Multimedia_en_HTML{
+  margin-top: 50px;
+}
+#Formularios_en_HTML{
+  margin-top: 50px;
+}
+#Formularios_en_HTML ul li{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+  
+  #navbar{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+  }
+  .nav-link{
+    font-size: 15px;
+    color: white;
+    margin-top: 50px;
+  }
+  .nav-link-container{
+    display: flex;
+  }
+  .logo-navbar{
+    width: 100px;
+  }
+  .title-navbar{
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  #main-doc{
+   margin-top: 150px;
+   margin-left: 5px;
+  }
+  .container{
+    display: inline-block;
+  }
+}
+
+@media (max-width: 650px){
+
+  #navbar{
+    height: 290px;
+    width: 100%;
+    position: absolute;
+  }
+  .nav-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .nav-link-container{
+    display: block;
+  }
+  #main-doc{
+   margin-top: 300px;
+   margin-left: 5px;
+  }
+
+}
